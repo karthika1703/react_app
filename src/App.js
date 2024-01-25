@@ -1,0 +1,32 @@
+import logo from './logo.svg';
+import './App.css';
+//import TestComponent from './components/functionalComponent/TestComponent';
+//import TestClassComp from './components/classComponents/testClassComponent';
+//import Login from './components/classComponents/loginComponent';
+import PropsComponents from './components/PropsComponents';
+
+function App() {
+  return (
+    <div className="App">
+      
+      <header className="App-header">
+        <PropsComponents name="karthi" course="MERN" />
+        
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
