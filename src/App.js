@@ -4,12 +4,14 @@ import './App.css';
 //import TestClassComp from './components/classComponents/testClassComponent';
 //import Login from './components/classComponents/loginComponent';
 import PropsComponents from './components/PropsComponents';
+import StateComponent from './components/classComponents/StateComponent';
 
 function App() {
   return (
     <div className="App">
       
       <header className="App-header">
+        <StateComponent/>
         <PropsComponents name="karthi" course="MERN" />
         
         <img src={logo} className="App-logo" alt="logo" />
